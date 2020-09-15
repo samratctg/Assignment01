@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:linear-gradient(45deg,#27dbe9,#e3e67d);
+	 height: 100vh;
+}
+.code-a a{
+	text-decoration: none;
+}
+
+.code-a{
+	text-align: center;
+}
+.code-a ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	background: gray;
+	margin-top: 40px;
+}
+.code-a ul li a{
+	color: black;
+	margin: 20px;
+}
+.code-a ul li a:hover{
+	color: red;
+}
+.socialmedia{
+	text-align: center;
+}
+.socialmedia ul li{
+	list-style: none;
+	display: inline-block;
+}
+.socialmedia ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color: white;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 22px;
+	transition: 0.5s;
+	margin: 20px;
+}
+.socialmedia ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+}
+
+.subscribe{
+	width: 400px;
+	margin: 40px auto;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.6);
+	text-align: center;
+	padding: 30px;
+}
+
+h3{
+	margin: 0
+			margin-bottom:16px;
+}
+
+input{
+	padding: 10px 20px;
+	background-color: transparent;
+	border: none;
+	border: 1px solid black;
+}
+.submit-butn{
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+}
+.submit-butn hover{
+	background-color: black;
+}
+.input:focus{
+	outline: none;
+}
+
+.post{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.title{
+	position: absolute;
+	top: 32px;
+	left: 33px;
+	color: black;
+}
+
+.outerbox{
+	width: 400px;
+	height: 200px;
+	background-color: green;
+	margin: auto;
+	position: relative;
+}
+
+.circle{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	left: 134px;
+	top: 40px;
+}
